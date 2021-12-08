@@ -1,0 +1,26 @@
+THREADS: 24
+SAMPLE: [
+         "WT_CENH3_Rep1_ChIP_SRR4430537",
+         "LoCENH3_Rep1_ChIP_SRR4430543",
+         "ZmCENH3_Rep1_ChIP_SRR4430549",
+         "WT_CENH3_Rep1_input_SRR4430555"
+        ]
+FEATURES:
+      chrName: ["Chr1",
+                "Chr2",
+                "Chr3",
+                "Chr4",
+                "Chr5"]
+MAPPING:
+      mode: "both"
+      reference: "data/index/t2t-col.20210610"
+COVERAGE:
+      regionBodyLength: 2000
+      startLabel: "Start"
+      endLabel: "End"
+      upstream: 2000
+      downstream: 2000
+      flankName: "2kb"
+      binSize: 10
+      binName: "10bp"
+      sortRegions: "keep"
